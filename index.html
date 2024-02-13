@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./FontshareKit-2402001163/General Sans/Fonts/WEB/css/general-sans.css">
+    <title>Online Stop Watch</title>
+</head>
+<body>
+    <header class="flex">
+        <h1 class="heading">Online Stop Watch</h1>
+    </header>
+    <main>
+        <section class="grid-flex">
+            <div class="grid">
+                <div class="grid-items js-hours">00:</div>
+                <div class="grid-items js-mins">00:</div>
+                <div class="grid-items js-sec">00</div>
+            </div>
+        </section>
+        <section class="flex">
+            <button class="btn js-start-btn js-stop-btn">Start</button>
+            <button class="btn js-addlap-btn" >Add Lap</button>
+            <button class="btn js-reset-btn">Reset</button>
+        </section>
+        <section class="lap-grid">
+            <div class="lap-grid-container js-lap-grid none">
+            </div>
+        </section>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
